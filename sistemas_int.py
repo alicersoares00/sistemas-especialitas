@@ -70,7 +70,7 @@ print('-- SISTEMA INTELIGENTE DE IDENTIFICAÇÃO DE COGUMELOS --')
 print('O QUE DESEJA SABER? DIGITE O NÚMERO CORRESPONDENTE:\n' \
 '1.Encontrar um cogumelo pelas características\n'
 '2.Pesquisar por um cogumelo específico\n'
-'3.Estimar a probabilidade de toxicidade\n'
+'3.Estimar a probabilidade de toxicidade\n')
 
 opcao = int(input('Digite a opção desejada: '))
 
@@ -162,3 +162,4 @@ if opcao == 3:
 
 
         
+
