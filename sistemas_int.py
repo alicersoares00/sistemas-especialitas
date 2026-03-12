@@ -71,7 +71,7 @@ print('O QUE DESEJA SABER? DIGITE O NÚMERO CORRESPONDENTE:\n' \
 '1.Encontrar um cogumelo pelas características\n'
 '2.Pesquisar por um cogumelo específico\n'
 '3.Estimar a probabilidade de toxicidade\n'
-'4.Pesquisar por grupos taxonômicos')
+
 opcao = int(input('Digite a opção desejada: '))
 
 def cog_corresp(base_cogumelos_50, carac_user):
@@ -158,6 +158,7 @@ if opcao == 3:
     for r in top3:
         print(f"{r['nome']} - {r['toxicidade']} ({r['compatibilidade']:.1f}% compatibilidade)")
     print(f"\nProbabilidade estimada de ser perigoso à saúde: {prob:.1f}%")
+
 
 
         
